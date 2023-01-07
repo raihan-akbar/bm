@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html data-theme="halloween" class="scroll-smooth">
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');body{font-family: 'Inter', sans-serif;}
+</style>
+<html data-theme="cmyk" class="scroll-smooth">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,7 +52,7 @@
 		</div>
 	</nav>
 	<!-- Hero -->
-	<div class="hero min-h-screen" style="background-image: url(<?=base_url('_assets/img/hero.jpg') ?>);">
+	<div id="home" class="hero min-h-screen" style="background-image: url(<?=base_url('_assets/img/hero.jpg') ?>);">
 	  <div class="hero-overlay bg-opacity-80"></div>
 	  <div class="hero-content text-center text-neutral-content">
 	    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -71,7 +74,7 @@
 			</div>
 			<div class="gap-4 columns-1 mb-2">
 				<div class="mb-2 text-base-content">
-					<p class="font-bold text-left mb-2">Visi <small>&</small> Misi</p>
+					<p class="text-primary font-bold text-left mb-2">Visi <small>&</small> Misi</p>
 					<p class="text-justify mb-2">Terpenuhinya hak masyarakat untuk mendapatkan pendidikan baik formal maupun informal dan akses informasi yang setara untuk memenuhi penghidupan mereka.</p>
 					<p class="text-justify mb-5">Memberikan pelayanan, dukungan, dan masukan kebijakan kepada lembaga-lembaga pembangunan yang mempunyai komitmen pada masyarakat marjinal dan menjunjung nilai pembangunan  berkelanjutan melalui pengembangan metodologi dan media komunikasi yang tepatguna.</p>
 				</div>
@@ -122,7 +125,7 @@
 	<!-- Gallery -->
 	<section id="gallery" class="overflow-hidden text-gray-700 mb-5">
 	  <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32 mb-12">
-	    <div class="carousel carousel-center max-w-7xl p-4 space-x-4 shadow-xl bg-neutral rounded-box">
+	    <div class="carousel carousel-center max-w-7xl p-4 space-x-4 shadow-xl bg-base-300 rounded-box">
 			  <div class="carousel-item">
 			    <img src="https://placeimg.com/250/180/arch" class="rounded-box" />
 			  </div> 
@@ -211,16 +214,19 @@
 			<a class="link link-hover">Kanal Fasilitator</a>
 	  </div> 
 	  <div>
-	    <span class="footer-title">Developer</span> 
+	    <span class="footer-title"><a href="#home">Back to Top</a></span> 
 	    <div class="grid grid-flow-col gap-4">
-	      <a><svg width="24" viewBox="0 0 263 263" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M131.053 188.156L205.614 262.717H262.716V205.881L188.022 131.186L262.717 56.4908V0H40.3773L0 40.3773L40.1886 80.5664L124.703 80.5669L0.000947916 205.27V262.717H56.4918L131.053 188.156Z" fill="white"/></svg></a>
+	      
 	    </div>
 	  </div>
 	</footer>
 </div>
-<div class="columns-1 py-8 bg-base-300">
-	<div><p class="text-center">Felkies &copy; <?=date('Y') ?></p></div>
+<div class="flex flex-col justify-center items-center bg-base-300 py-8">
+   	<a class="mb-3"><svg width="25" height="25" viewBox="0 0 263 263" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M131.053 188.156L205.614 262.717H262.716V205.881L188.022 131.186L262.717 56.4908V0H40.3773L0 40.3773L40.1886 80.5664L124.703 80.5669L0.000947916 205.27V262.717H56.4918L131.053 188.156Z" fill="white"/>
+	</svg></a>
+	<p class="text-center">Raihan Akbar &copy; <?=date('Y') ?></p>
 </div>
+
 </body>
 </html>
