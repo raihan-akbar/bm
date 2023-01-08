@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');body{font-family: 'Inter', sans-serif;}
+/*	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');body{font-family: 'Inter', sans-serif;}*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');body{font-family: 'DM Sans', sans-serif;}
 </style>
-<html data-theme="cmyk" class="scroll-smooth">
+<html data-theme="halloween" class="scroll-smooth">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -89,32 +90,35 @@
 		  <h1 class="text-3xl font-bold text-center mb-12 text-primary">Portfolio</h1>
 		  	<div class="md:columns-3 lg:columns-3 sm:columns-1 gap-8 mb-6">	
 			  	<div class="card card-compact w-96 shadow-xl mb-4 ">
-					  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+					  <figure><img src="<?=base_url('_assets/img/hero.jpg') ?>" alt="Shoes" /></figure>
 					  <div class="card-body">
 					    <h2 class="card-title">Shoes!</h2>
-					    <p class="mb-5">If a dog chews shoes whose shoes does he choose?</p>
+					    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 					    <div class="card-actions justify-end">
-					      <button class="btn btn-active btn-ghost btn-block">Buy Now</button>
+					      <button class="btn btn-active btn-ghost btn-block">Read More</button>
 					    </div>
 					  </div>
 					</div>
 					<div class="card card-compact w-96 shadow-xl mb-4 ">
-					  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+					  <figure><img src="<?=base_url('_assets/img/hero.jpg') ?>" alt="Shoes" /></figure>
 					  <div class="card-body">
 					    <h2 class="card-title">Shoes!</h2>
-					    <p class="mb-5">If a dog chews shoes whose shoes does he choose?</p>
+					    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 					    <div class="card-actions justify-end">
-					      <button class="btn btn-active btn-ghost btn-block">Buy Now</button>
+					      <button class="btn btn-active btn-ghost btn-block">Read More</button>
 					    </div>
 					  </div>
 					</div>
 					<div class="card card-compact w-96 shadow-xl mb-4 ">
-					  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+					  <figure><img src="<?=base_url('_assets/img/hero.jpg') ?>" alt="Shoes" /></figure>
 					  <div class="card-body">
 					    <h2 class="card-title">Shoes!</h2>
-					    <p class="mb-5">If a dog chews shoes whose shoes does he choose?</p>
+					    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 					    <div class="card-actions justify-end">
-					      <button class="btn btn-active btn-ghost btn-block">Buy Now</button>
+					      <button class="btn btn-active btn-ghost btn-block">Read More</button>
 					    </div>
 					  </div>
 					</div>
@@ -123,29 +127,29 @@
 	</section>
 
 	<!-- Gallery -->
-	<section id="gallery" class="overflow-hidden text-gray-700 mb-5">
-	  <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32 mb-12">
+	<section id="gallery" class="overflow-hidden text-gray-700 mb-5 mx-auto max-w-7xl">
+	  <div class="container px-5 py-2 mx-auto mb-12">
 	    <div class="carousel carousel-center max-w-7xl p-4 space-x-4 shadow-xl bg-base-300 rounded-box">
 			  <div class="carousel-item">
-			    <img src="https://placeimg.com/250/180/arch" class="rounded-box" />
+			    <img src="<?=base_url('_assets/img/hero.jpg') ?>" class="rounded-box w-15" width="250" />
 			  </div> 
 			  <div class="carousel-item">
-			    <img src="https://placeimg.com/250/180/arch" class="rounded-box" />
+			    <img src="<?=base_url('_assets/img/hero.jpg') ?>" class="rounded-box w-15" width="250" />
 			  </div> 
 			  <div class="carousel-item">
-			    <img src="https://placeimg.com/250/180/arch" class="rounded-box" />
+			    <img src="<?=base_url('_assets/img/hero.jpg') ?>" class="rounded-box w-15" width="250" />
 			  </div> 
 			  <div class="carousel-item">
-			    <img src="https://placeimg.com/250/180/arch" class="rounded-box" />
+			    <img src="<?=base_url('_assets/img/hero.jpg') ?>" class="rounded-box w-15" width="250" />
 			  </div> 
 			  <div class="carousel-item">
-			    <img src="https://placeimg.com/250/180/arch" class="rounded-box" />
+			    <img src="<?=base_url('_assets/img/hero.jpg') ?>" class="rounded-box w-15" width="250" />
 			  </div> 
 			  <div class="carousel-item">
-			    <img src="https://placeimg.com/250/180/arch" class="rounded-box" />
+			    <img src="<?=base_url('_assets/img/hero.jpg') ?>" class="rounded-box w-15" width="250" />
 			  </div> 
 			  <div class="carousel-item">
-			    <img src="https://placeimg.com/250/180/arch" class="rounded-box" />
+			    <img src="<?=base_url('_assets/img/hero.jpg') ?>" class="rounded-box w-15" width="250" />
 			  </div>
 			</div>
 	  </div>
@@ -215,8 +219,8 @@
 	  </div> 
 	  <div>
 	    <span class="footer-title"><a href="#home">Back to Top</a></span> 
-	    <div class="grid grid-flow-col gap-4">
-	      
+	    <div class="grid grid-flow-col gap-4 text-center">
+	      <a href="#home" class="block"><iconify-icon inline icon="mdi:arrow-up" height="25"></iconify-icon></a>
 	    </div>
 	  </div>
 	</footer>
