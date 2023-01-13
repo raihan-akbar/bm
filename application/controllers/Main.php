@@ -8,7 +8,7 @@ class Main extends CI_Controller {
 	}
 
 	function driyamedia(){
-		$this->load->view('driyamedia_home');
+		$this->load->view('coming_soon');
 	}
 
 }
