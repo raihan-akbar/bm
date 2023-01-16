@@ -127,7 +127,7 @@
 	</section>
 
 	<!-- Gallery -->
-	<section id="gallery" class="overflow-hidden text-gray-700 mb-5 mx-auto max-w-7xl">
+	<!-- <section id="gallery" class="overflow-hidden text-gray-700 mb-5 mx-auto max-w-7xl">
 	  <div class="container px-5 py-2 mx-auto mb-12">
 	    <div class="carousel carousel-center max-w-7xl p-4 space-x-4 shadow-xl bg-base-300 rounded-box">
 			  <div class="carousel-item">
@@ -153,7 +153,7 @@
 			  </div>
 			</div>
 	  </div>
-	</section>
+	</section> -->
 
 	<div class="mx-auto max-w-7xl columns-1 mb-32">
 		<a class="btn btn-block btn-ghost">Read More Article <iconify-icon inline icon="mdi:chevron-right" height="25"></iconify-icon></a>
