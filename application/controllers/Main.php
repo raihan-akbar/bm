@@ -10,7 +10,6 @@ class Main extends CI_Controller {
 	function driyamedia(){
 		$this->load->view('coming_soon');
 	}
-
 }
 
 /* End of file Main.php */

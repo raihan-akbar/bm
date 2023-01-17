@@ -17,7 +17,7 @@
     <div class="bg-base-100 drawer drawer-mobile">
     <input id="drawer" type="checkbox" class="drawer-toggle">
     <div class="drawer-content" style="scroll-behavior: smooth; scroll-padding-top: 5rem;">
-      <div class="\n  sticky top-0 z-30 flex h-16 w-full justify-center bg-opacity-90 backdrop-blur transition-all duration-100 \n  bg-base-100 text-base-content\n  ">
+      <div class="\n sticky top-0 z-30 flex h-16 w-full justify-center bg-opacity-90 backdrop-blur transition-all duration-100 \n  bg-base-100 text-base-content\n  ">
         <nav class="navbar w-full">
           <div class="flex flex-1 md:gap-1 lg:gap-2">
             <span class="text-primary tooltip tooltip-bottom before:text-xs before:content-[attr(data-tip)]" data-tip="Menu">
@@ -43,19 +43,25 @@
             <div title="Change Theme" class="dropdown dropdown-end ">
               <div tabindex="0" class="btn gap-1 normal-case btn-ghost">
                 <iconify-icon inline icon="mdi:user" height="20"></iconify-icon>
-                <span class="hidden md:inline">Admin</span>
+                <span class="hidden md:inline"> <small> - </small> Admin</span>
               </div>
-              <div class="dropdown-content bg-base-200 text-base-content rounded-t-box rounded-b-box top-px max-h-96 h-[70vh] w-52 overflow-y-auto shadow-2xl mt-16">
-                <div class="grid grid-cols-1 gap-3 p-3" tabindex="0">
-                  <div class="outline-base-content overflow-hidden rounded-lg outline outline-2 outline-offset-2" data-set-theme="light" data-act-class="outline">
-                    <div data-theme="light" class="bg-base-100 text-base-content w-full cursor-pointer font-sans">
-                      <div class="grid grid-cols-5 grid-rows-3">
-                        <div class="col-span-5 row-span-3 row-start-1 flex gap-1 py-3 px-4">
-                          <div class="flex-grow text-sm font-bold">light</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              <div tabindex="0" class="mt-3 card card-compact dropdown-content w-60 bg-base-300 shadow">
+                <div class="card-body">
+                  <ul class="text-lg">
+                    <li class="mb-2"><a href="#about">About Us</a></li>
+                    <li class="mb-2"><a href="#portfolio">Portfolio</a></li>
+                    <li class="mb-2"><a href="#contact">Contact</a></li>
+                    <!-- <li class="mb-2"><a href="#gallery">Gallery</a></li> -->
+                  </ul>
+                  <hr/>
+                  <span class="text-default font-bold">More Pages</span>
+                  <ul class="text-lg mb-2">
+                    <li class="text-default mb-2"><a href="<?=base_url('driyamedia/') ?>">Driya Media</a></li>
+                    <li class="text-default mb-2"><a href="">Pustaka</a></li>
+                    <li class="text-default mb-2"><a href="">Koperasi</a></li>
+                    <li class="text-default mb-2"><a href="">Kanal Fasilitator</a></li>
+                  </ul>
+                  <hr/>
                 </div>
               </div>
             </div>
@@ -66,7 +72,7 @@
         <div class="flex flex-col-reverse justify-between gap-6 xl:flex-row">
           <div class="prose w-full max-w-4xl flex-grow">
             <!-- Your Content Here -->
-
+            
           </div>
         </div>
       </div>
@@ -89,11 +95,9 @@
       <li class="disabled">
         <p class="flex gap-4">
           <span class="flex-none">
-            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-6 h-6 stroke-current">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20" />
-            </svg>
+            <iconify-icon inline icon="fa:code-fork" height="20"></iconify-icon>
           </span>
-          <span class="flex-1">Navigation</span>
+          <span class="flex-1 font-bold">Navigation</span>
         </p>
       </li>
     </ul>
@@ -101,7 +105,7 @@
       <li></li>
       <!-- <li class="menu-title"><span>Actions</span></li> -->
       <li><a sveltekit:prefetch href="/components/button" id="" class="flex gap-4   ">
-        <span class="flex-1">Button</span>
+        <span class="flex-1">Dashboard</span>
         </a>
       </li>
     </ul>
