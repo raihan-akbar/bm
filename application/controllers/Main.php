@@ -10,6 +10,10 @@ class Main extends CI_Controller {
 	function driyamedia(){
 		$this->load->view('coming_soon');
 	}
+
+	function login(){
+		$this->load->view('login');
+	}
 }
 
 /* End of file Main.php */

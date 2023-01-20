@@ -54,3 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['driyamedia'] = 'Main/driyamedia';
+$route['login'] = 'Main/login';
+$route['signin'] = 'Sys/auth';

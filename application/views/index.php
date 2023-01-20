@@ -15,46 +15,47 @@
 </head>
 <body>
 	<!-- Nav -->
-	<nav class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-		<div class="navbar">
-		  <div class="flex-1">
-		  	<div class="w-10 rounded-full">
-					<img src="<?=base_url('_assets/img/sys/main-logo.png')?>">
-		  	</div>
-		  </div>
-		  <div class="flex-none">
-		    <div class="dropdown dropdown-end">
-		      <label tabindex="0" class="btn btn-ghost btn-circle">
-		      	<iconify-icon icon="mdi:menu" height="30"></iconify-icon>
-		      </label>
-		      <div tabindex="0" class="mt-3 card card-compact dropdown-content w-60 bg-base-100 shadow">
-		        <div class="card-body">
-		          <ul class="text-lg">
-		          	<li class="mb-2"><a href="#about">About Us</a></li>
-		          	<li class="mb-2"><a href="#portfolio">Portfolio</a></li>
-		          	<li class="mb-2"><a href="#contact">Contact</a></li>
-		          	<!-- <li class="mb-2"><a href="#gallery">Gallery</a></li> -->
-		          </ul>
-		          <hr/>
-		          <span class="text-default font-bold">More Pages</span>
-		          <ul class="text-lg mb-2">
-		          	<li class="text-default mb-2"><a href="<?=base_url('driyamedia/') ?>">Driya Media</a></li>
-		          	<li class="text-default mb-2"><a href="">Pustaka</a></li>
-		          	<li class="text-default mb-2"><a href="">Koperasi</a></li>
-		          	<li class="text-default mb-2"><a href="">Kanal Fasilitator</a></li>
-		          </ul>
-		          <hr/>
-		          <hr/>
-
-		        </div>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-	</nav>
+	<div class="relative sticky top-0 z-50 bg-neutral md:bg-opacity-80 backdrop-blur-md">
+		<nav class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+			<div class="navbar">
+			  <div class="flex-1">
+			  	<div class="w-10 rounded-full">
+						<img src="<?=base_url('_assets/img/sys/main-logo.png')?>">
+			  	</div>
+			  </div>
+			  <div class="flex-none">
+			    <div class="dropdown dropdown-end">
+			      <label tabindex="0" class="btn btn-ghost btn-circle">
+			      	<iconify-icon icon="mdi:menu" height="30"></iconify-icon>
+			      </label>
+			      <div tabindex="0" class="mt-3 card card-compact dropdown-content w-60 bg-base-100 shadow">
+			        <div class="card-body">
+			          <ul class="text-lg">
+			          	<li class="mb-2"><a href="#about">About Us</a></li>
+			          	<li class="mb-2"><a href="#portfolio">Portfolio</a></li>
+			          	<li class="mb-2"><a href="#contact">Contact</a></li>
+			          	<!-- <li class="mb-2"><a href="#gallery">Gallery</a></li> -->
+			          </ul>
+			          <hr/>
+			          <span class="text-default font-bold">More Pages</span>
+			          <ul class="text-lg mb-2">
+			          	<li class="text-default mb-2"><a href="<?=base_url('driyamedia/') ?>">Driya Media</a></li>
+			          	<li class="text-default mb-2"><a href="">Pustaka</a></li>
+			          	<li class="text-default mb-2"><a href="">Koperasi</a></li>
+			          	<li class="text-default mb-2"><a href="">Kanal Fasilitator</a></li>
+			          </ul>
+			          <hr/>
+			          <hr/>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</nav>
+	</div>
 	<!-- Hero -->
 	<div id="home" class="hero min-h-screen" style="background-image: url(<?=base_url('_assets/img/hero.jpg') ?>);">
-	  <div class="hero-overlay bg-opacity-80"></div>
+	  <div class="hero-overlay bg-opacity-80 backdrop-blur-sm"></div>
 	  <div class="hero-content text-center text-neutral-content">
 	    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 	      <h1 class="mb-8 text-5xl font-bold text-primary">Yayasan Bumi Manira</h1>
@@ -83,7 +84,6 @@
 			
 		</div>
 	</section>
-
 	<!-- Portfolio -->
 	<section id="portfolio" class="flex py-2">
 		<div class="mx-auto max-w-7xl">
@@ -122,10 +122,42 @@
 					    </div>
 					  </div>
 					</div>
+					<div class="card card-compact w-96 shadow-xl mb-4 ">
+					  <figure><img src="<?=base_url('_assets/img/hero.jpg') ?>" alt="Shoes" /></figure>
+					  <div class="card-body">
+					    <h2 class="card-title">Shoes!</h2>
+					    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					    <div class="card-actions justify-end">
+					      <button class="btn btn-active btn-ghost btn-block">Read More</button>
+					    </div>
+					  </div>
+					</div>
+					<div class="card card-compact w-96 shadow-xl mb-4 ">
+					  <figure><img src="<?=base_url('_assets/img/hero.jpg') ?>" alt="Shoes" /></figure>
+					  <div class="card-body">
+					    <h2 class="card-title">Shoes!</h2>
+					    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					    <div class="card-actions justify-end">
+					      <button class="btn btn-active btn-ghost btn-block">Read More</button>
+					    </div>
+					  </div>
+					</div>
+					<div class="card card-compact w-96 shadow-xl mb-4 ">
+					  <figure><img src="<?=base_url('_assets/img/hero.jpg') ?>" alt="Shoes" /></figure>
+					  <div class="card-body">
+					    <h2 class="card-title">Shoes!</h2>
+					    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					    <div class="card-actions justify-end">
+					      <button class="btn btn-active btn-ghost btn-block">Read More</button>
+					    </div>
+					  </div>
+					</div>
 				</div>
 		</div>
 	</section>
-
 	<!-- Gallery -->
 	<!-- <section id="gallery" class="overflow-hidden text-gray-700 mb-5 mx-auto max-w-7xl">
 	  <div class="container px-5 py-2 mx-auto mb-12">
@@ -154,7 +186,6 @@
 			</div>
 	  </div>
 	</section> -->
-
 	<div class="mx-auto max-w-7xl columns-1 mb-32">
 		<a class="btn btn-block btn-ghost">Read More Article <iconify-icon inline icon="mdi:chevron-right" height="25"></iconify-icon></a>
 	</div>
@@ -199,7 +230,6 @@
 		  </div>
 		</div>
 	</section>
-
 <!-- Footer -->
 <div class="bg-base-300">
 	<footer class="footer p-10 text-base-content mx-auto max-w-7xl">
