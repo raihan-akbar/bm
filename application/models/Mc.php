@@ -16,6 +16,13 @@ class Mc extends CI_Model {
 		$this->db->update($table,$data);
 	}
 
+	function user_info(){
+		$token = $this->session->userdata('token');
+		return $this->db->query("SELECT * FROM user WHERE token='$token' ");
+			
+	}
+
+
 }
 
 /* End of file Mc.php */

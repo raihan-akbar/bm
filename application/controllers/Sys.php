@@ -7,12 +7,6 @@ class Sys extends CI_Controller {
 	}
 
 	function auth(){
-		public function __construct(){
-		parent::__construct();
-		if ($this->session->userdata('sts')==1){
-			redirect(base_url('dash'));
-		}
-	}
 		$email = $this->input->post('email');	
 		$password = $this->input->post('password');
 
@@ -36,7 +30,12 @@ class Sys extends CI_Controller {
     	$info = $this->Mc->get('user', $where)->result();
 			foreach ($info as $i) {}
 			if (password_verify($password, $i->password)) {
-				redirect(base_url('dash'));
+				$data_session = array(
+            'token' => $i->token,
+            'sts' => 1
+        );
+        $this->session->set_userdata($data_session);
+        redirect(base_url('dash'),$data);
 			}else{
 				$this->session->set_flashdata('flash', 'Incorrect Password, Please Try Again');
 				redirect(base_url('login'));

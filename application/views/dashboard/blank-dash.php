@@ -11,7 +11,6 @@
     <title>Yayasan Bumi Manira</title>
   </head>
   <body>
-    <?php foreach($user_info as $put) {} ?>
     <div class="bg-base-100 drawer drawer-mobile">
     <input id="drawer" type="checkbox" class="drawer-toggle">
     <div class="drawer-content" style="scroll-behavior: smooth; scroll-padding-top: 5rem;">
@@ -20,9 +19,7 @@
         <div class="flex flex-col-reverse justify-between gap-6 xl:flex-row">
           <div class="prose w-full max-w-4xl flex-grow">
             <!-- Start Content Here -->
-            <div class="py-5">
-              <?=$put->name ?>
-            </div>
+            
             <!-- End Content Here -->
           </div>
         </div>

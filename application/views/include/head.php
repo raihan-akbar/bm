@@ -13,3 +13,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="<?=base_url('_assets/img/sys/favicon-16x16.png')?>">
 <link rel="manifest" href="<?=base_url('_assets/img/sys/manifest.json')?>">
 <meta name="theme-color" content="#ffffff">
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@2.46.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>

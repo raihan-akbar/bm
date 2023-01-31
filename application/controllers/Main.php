@@ -12,6 +12,9 @@ class Main extends CI_Controller {
 	}
 
 	function login(){
+		if ($this->session->userdata('sts')==1){
+			redirect(base_url('dash'));
+		}
 		$this->load->view('login');
 	}
 }

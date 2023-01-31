@@ -8,10 +8,14 @@ class Dash extends CI_Controller {
 			$this->session->set_flashdata('flash', 'Login First Please');
 			redirect(base_url('login'));
 		}
+
+		$this->load->model('Mc');
 	}
 
 	function index(){
-		$this->load->view('dashboard/dashboard');
+		$data['user_info'] = $this->Mc->user_info()->result();
+
+		$this->load->view('dashboard/dashboard', $data);
 	}
 
 	function driyamedia(){
