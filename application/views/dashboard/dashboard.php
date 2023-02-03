@@ -21,7 +21,13 @@
           <div class="prose w-full max-w-4xl flex-grow">
             <!-- Start Content Here -->
             <div class="py-5">
-              <?=$put->name ?>
+              <div class="container-2xl mx-auto">
+                <div class="card shadow-xl container-2xl">
+                  <div class="card-body">
+                    <p>aaa</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <!-- End Content Here -->
           </div>

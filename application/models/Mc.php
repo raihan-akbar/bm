@@ -22,6 +22,15 @@ class Mc extends CI_Model {
 			
 	}
 
+	function article_value($token_article){
+		return $this->db->query("SELECT * FROM article WHERE article_token='$token_article' ");
+		// SELECT * FROM `article` WHERE article_token='12';
+	}
+
+	function article_lists(){
+		return $this->db->query("SELECT * FROM article");
+	}
+
 
 }
 

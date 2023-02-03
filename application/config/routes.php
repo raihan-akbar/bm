@@ -53,6 +53,7 @@ $route['default_controller'] = 'Main';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['article'] = 'Main/article';
 $route['driyamedia'] = 'Main/driyamedia';
 $route['login'] = 'Main/login';
 $route['signin'] = 'Sys/auth';
