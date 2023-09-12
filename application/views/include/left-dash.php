@@ -31,5 +31,4 @@
           <span class="flex-1 text-md font-bold">Dashboard</span>
         </a>
       </li>
-
     </ul>

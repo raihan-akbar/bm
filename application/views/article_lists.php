@@ -21,7 +21,7 @@
 	<section id="header" class="flex py-8">
 		<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 py-8">
 			<div class="flex-none">
-		    <h1 class="text-3xl font-bold text-center mb-12 text-primary">Article Lists</h1>
+		    <h1 class="text-3xl font-bold text-center mb-12 text-primary">Daftar Artikel</h1>
 			</div>
 		</div>
 	</section>
@@ -34,43 +34,13 @@
 			  <figure><img src="<?=base_url('_assets/img/hero.jpg') ?>" alt="Shoes" /></figure>
 			  <div class="card-body">
 			    <h2 class="card-title"><?=$put->title_article ?></h2>
-			    <p class="mb-5">Ayyyyyyyyy.</p>
+			    <p class="mb-5"><?=$put->overview_article ?></p>
 			    <div class="card-actions justify-end">
 			      <button class="btn btn-active btn-ghost btn-block">Read More</button>
 			    </div>
 			  </div>
 			</div>
 			<?php } ?>
-			<div class="card card-compact w-full shadow-xl mb-4 gap-4">
-			  <figure><img src="<?=base_url('_assets/img/hero.jpg') ?>" alt="Shoes" /></figure>
-			  <div class="card-body">
-			    <h2 class="card-title"><?=$put->title_article ?></h2>
-			    <p class="mb-5">Ayyyyyyyyy.</p>
-			    <div class="card-actions justify-end">
-			      <button class="btn btn-active btn-ghost btn-block">Read More</button>
-			    </div>
-			  </div>
-			</div>
-			<div class="card card-compact w-full shadow-xl mb-4 gap-4">
-			  <figure><img src="<?=base_url('_assets/img/hero.jpg') ?>" alt="Shoes" /></figure>
-			  <div class="card-body">
-			    <h2 class="card-title"><?=$put->title_article ?></h2>
-			    <p class="mb-5">Ayyyyyyyyy.</p>
-			    <div class="card-actions justify-end">
-			      <button class="btn btn-active btn-ghost btn-block">Read More</button>
-			    </div>
-			  </div>
-			</div>
-			<div class="card card-compact w-full shadow-xl mb-4 gap-4">
-			  <figure><img src="<?=base_url('_assets/img/hero.jpg') ?>" alt="Shoes" /></figure>
-			  <div class="card-body">
-			    <h2 class="card-title"><?=$put->title_article ?></h2>
-			    <p class="mb-5">Ayyyyyyyyy.</p>
-			    <div class="card-actions justify-end">
-			      <button class="btn btn-active btn-ghost btn-block">Read More</button>
-			    </div>
-			  </div>
-			</div>
 		</div>
 	</section>
 <!-- Footer -->
